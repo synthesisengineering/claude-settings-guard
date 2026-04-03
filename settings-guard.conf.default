@@ -1,0 +1,20 @@
+# claude-settings-guard configuration
+# Copy this file to ~/.claude/settings-guard.conf and edit as needed.
+
+# Minimum effort level required. Claude Code will be blocked if
+# the effortLevel setting drops below this value.
+# Valid values: max, high, medium, low
+MIN_EFFORT=max
+
+# Require extended thinking (alwaysThinkingEnabled) to be on.
+# Set to false if you don't want to enforce this.
+REQUIRE_THINKING=true
+
+# Auto-fix tampered settings instead of blocking.
+# When true: settings are silently restored and the change is logged.
+# When false: the prompt is blocked until you manually fix the settings.
+AUTO_FIX=false
+
+# Path to the audit log file.
+# Every detected change is logged here with timestamps.
+LOG_FILE=~/.claude/settings-guard.log
