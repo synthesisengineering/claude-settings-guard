@@ -1,6 +1,6 @@
 #!/bin/bash
 # claude-settings-guard — Protects Claude Code settings from unauthorized changes.
-# https://github.com/rajivpant/claude-settings-guard
+# https://github.com/synthesisengineering/claude-settings-guard
 #
 # Runs as a UserPromptSubmit hook. Checks that effortLevel, alwaysThinkingEnabled,
 # and its own hook registration are intact. Optionally auto-fixes tampered settings.

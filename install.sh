@@ -1,6 +1,6 @@
 #!/bin/bash
 # claude-settings-guard installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/rajivpant/claude-settings-guard/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/synthesisengineering/claude-settings-guard/main/install.sh | bash
 #
 # What this does:
 # 1. Downloads settings-guard.sh to ~/.claude/
@@ -16,7 +16,7 @@ CLAUDE_DIR="$HOME/.claude"
 SETTINGS_FILE="$CLAUDE_DIR/settings.json"
 SCRIPT_NAME="settings-guard.sh"
 CONF_NAME="settings-guard.conf"
-REPO_BASE="https://raw.githubusercontent.com/rajivpant/claude-settings-guard/main"
+REPO_BASE="https://raw.githubusercontent.com/synthesisengineering/claude-settings-guard/main"
 
 # ─── Colors (if terminal supports them) ─────────────────────────────────────
 

@@ -17,7 +17,7 @@ Three layers of protection:
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rajivpant/claude-settings-guard/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/synthesisengineering/claude-settings-guard/main/install.sh | bash
 ```
 
 The installer:
